@@ -1,9 +1,9 @@
 (function (){
-	var stuff = function (){
+	function cleanDzoneSnippetPrintMess(){
 		let selector = "CodeMirror cm-s-default";
 		let snippets = document.getElementsByClassName(selector);
-		for (let i = 0; i < snippets.length; i++) {
-			let snippet = snippets[i];
+		while (snippets.length){
+			let snippet = snippets[0];
 			let lines = snippet.getElementsByTagName("span");
 			let newSnippet = "";
 			for (let j = 0; j < lines.length; j++) {
@@ -17,10 +17,10 @@
 			let newContent = document.createTextNode(newSnippet);
 			newPre.appendChild(newContent);
 
-			let parent = snippet.parentElement;
-			parent.insertBefore(newPre, snippet);
-			parent.removeChild(snippet);
+			snippet.setAttribute("class", "");
+			snippet.innerHTML  = "";
+			snippet.appendChild(newPre);
 		}
 	}
-	stuff();
+	cleanDzoneSnippetPrintMess();
 })();
