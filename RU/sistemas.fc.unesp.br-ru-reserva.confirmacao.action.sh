@@ -1,6 +1,5 @@
 #!/bin/sh
-
-resrva_ru() {
+reserva_ru() {
 	SEGUNDA="txt_dias=06"%"2F06"%"2F2016&"
 	TERCA="txt_dias=07"%"2F06"%"2F2016&"
 	QUARTA="txt_dias=08"%"2F06"%"2F2016&"
@@ -38,3 +37,7 @@ pesquisa_ru(){
 		--data $DATA \
 		--compressed
 }
+
+# USAGE GUIDE
+reserva_ru "9999" "999.999.999-99" &
+pesquisa_ru "9999" &
