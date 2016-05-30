@@ -1,6 +1,6 @@
 #!/bin/sh
 
-function resrva_ru {
+resrva_ru() {
 	SEGUNDA="06"%"2F06"%"2F2016"
 	TERCA="07"%"2F06"%"2F2016"
 	QUARTA="08"%"2F06"%"2F2016"
