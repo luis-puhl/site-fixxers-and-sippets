@@ -50,6 +50,16 @@ Programmer MotherFucker]!!!
 
 [Become a Programmer MotherFucker]:(http://programming-motherfucker.com/become.html)
 
+## Entenda o que acontece por baixo dos panos
+
+Muitas vezes você já ouviu o termo várias vezes mas não sabe como a coisa
+funciona por baixo. Procure entender como cada atomo é feito.
+
+Nos casos de atomos complexos procure novos caminhos para o entendimento, por
+exemplo soluções visuais como o [Algorithm Visualizer].
+
+[Algorithm Visualizer]: http://jasonpark.me/AlgorithmVisualizer
+
 # Conheça seu ambiente
 
 ## Bash
@@ -88,8 +98,8 @@ GrandeComponete.EpresaGrande.MuitosNomesLongosEDescritivosSaoComuns.meuEncapsula
 
 [Unified Modeling Language] ([UML na wiki]) é uma linguagem para descrever esturutras de um
 software. Ela descreve utilizando vários tipos de diagrama, cada especializado em
-uma tarefa específica. Ela não é uma linguagem para computadores e sim para 
-humanos então não pense que você vai codificar alguma coisa nela. Porém UML é 
+uma tarefa específica. Ela não é uma linguagem para computadores e sim para
+humanos então não pense que você vai codificar alguma coisa nela. Porém UML é
 um padrão ISO então não tente fugir dela.
 
 [Unified Modeling Language]: http://www.uml.org/
@@ -97,10 +107,10 @@ um padrão ISO então não tente fugir dela.
 
 Ela é dividida em:
 - **Diagramas de estrutura**
-	- [Class Diagram] **Use para mostrar no mínimo as entidades**, 
-	- Object Diagram, 
-	- Component Diagram, 
-	- Composite Structure Diagram, 
+	- [Class Diagram] **Use para mostrar no mínimo as entidades**,
+	- Object Diagram,
+	- Component Diagram,
+	- Composite Structure Diagram,
 	- Package Diagram,
 	- Deployment Diagram;
 - **Diagramas de comportamento**
@@ -123,7 +133,7 @@ Ela é dividida em:
 
 #### Diagrama de Classe
 
-Mostra a estrutura estática mostrando suas classes, seus atributos 
+Mostra a estrutura estática mostrando suas classes, seus atributos
 (qualidades), operações ou métodos e a relação entre essas classes e seus objetos.
 
 Use para mostrar as entidades que são representadas no sistema. Cada entidade
@@ -132,16 +142,16 @@ executadas com ela.
 
 Relação entre classes:
 
-<a 
-title="By Paulo Merson (I created the file.) [Public domain], via Wikimedia Commons" 
+<a
+title="By Paulo Merson (I created the file.) [Public domain], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3AUml_diagram2.png">
 	![Relação entre classes](https://upload.wikimedia.org/wikipedia/commons/d/d6/Uml_diagram2.png)
 </a>
 
 Uma classe com atributos e métodos:
 
-<a 
-title="By Donald Bell [GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons" 
+<a
+title="By Donald Bell [GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3ABankAccount1.svg">
 	![classe em UML](https://upload.wikimedia.org/wikipedia/commons/4/41/BankAccount1.svg)
 </a>
@@ -169,8 +179,8 @@ Podem ser de:
 - Agregação
 - Composição
 
-<a 
-title="By Yanpas (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" 
+<a
+title="By Yanpas (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3AUml_classes_en.svg">
 	![tipos de setas](https://upload.wikimedia.org/wikipedia/commons/9/93/Uml_classes_en.svg)
 </a>
@@ -192,13 +202,13 @@ Também pode ser usada a notação "pé de galinha". Onde:
 #### Diagrama de Caso de Uso
 
 Explica a interação de cada usuário (não se limite aos humanos) com cada
-componente. Cada interação é um caso de uso e corresponde uma funcionalidade 
+componente. Cada interação é um caso de uso e corresponde uma funcionalidade
 no sistema final.
 
 Não é necessário chegar tão longe quanto este exemplo.
 
-<a 
-title="Kishorekumar 62 [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" 
+<a
+title="Kishorekumar 62 [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3AUse_case_restaurant_model.svg">
 	![Exemplo de Casos de Uso: Restaurante](https://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg)
 </a>
@@ -208,23 +218,23 @@ href="https://commons.wikimedia.org/wiki/File%3AUse_case_restaurant_model.svg">
 Mostra os passos e decisões tomadas na execução de um caso de uso. É o
 famoso fluxograma.
 
-<a 
-title="​spanish Wikipedia user Gwaur [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons" 
+<a
+title="​spanish Wikipedia user Gwaur [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3AActivity_conducting.svg">
 	![Exemplo de atividade: conduzindo brainstorm](https://upload.wikimedia.org/wikipedia/commons/e/e7/Activity_conducting.svg)
 </a>
 
 #### Diagrama de Sequencia
 
-Use para explicar fluxo de funções complexas, ou seja, quando a operação envolve 
+Use para explicar fluxo de funções complexas, ou seja, quando a operação envolve
 muitas entidades ativas no processo. Ela representa as Threads (linhas de execução)
 tempo de vida e chamadas de função.
 
 Difere do diagrama de atividade pois mostra a reação dos componentes ao invés de
 sua interelação.
 
-<a 
-title="By Coupling_loss_graph.svg (File:CheckEmail.png) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" 
+<a
+title="By Coupling_loss_graph.svg (File:CheckEmail.png) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3ACheckEmail.svg">
 	![Exemplo de fluxo: checar e-mail](https://upload.wikimedia.org/wikipedia/commons/9/9b/CheckEmail.svg)
 </a>
