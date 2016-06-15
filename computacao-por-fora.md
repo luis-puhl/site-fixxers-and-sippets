@@ -50,6 +50,26 @@ Programmer MotherFucker]!!!
 
 [Become a Programmer MotherFucker]:(http://programming-motherfucker.com/become.html)
 
+### Desafios
+
+Existem competições em programação, acredite, esses nerds adoram competição.
+Nesse tipo de brincadeira são criados problemas bem teóricos com uma historinha
+boba para explicá-los e cabe aos competidores escrever um programa que os
+resolva dentro de um prazo estipulado (menos de 2 segundos geralmente) que só é
+possível se a solução tem complexidade adequada.
+
+http://www.spoj.com/
+
+
+
+ nesse site até resolver 100 problemas
+
+## Livros, muitos Livros
+
+https://github.com/vhf/free-programming-books
+
+https://github.com/sindresorhus/awesome
+
 ## Entenda o que acontece por baixo dos panos
 
 Muitas vezes você já ouviu o termo várias vezes mas não sabe como a coisa
