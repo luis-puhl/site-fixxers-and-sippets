@@ -1,0 +1,25 @@
+{
+  "name": "poscomp",
+  "version": "0.1.0",
+  "description": "Decides witch Master Degree program i'm going to follow.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis-puhl/site-fixxers-and-snippets.git"
+  },
+  "keywords": [
+    "data-mining"
+  ],
+  "author": "luis-puhl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luis-puhl/site-fixxers-and-snippets/issues"
+  },
+  "homepage": "https://github.com/luis-puhl/site-fixxers-and-snippets#readme",
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}
