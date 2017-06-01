@@ -18,16 +18,19 @@
 </a>
 
 **/
-let shittyHref = /javascript\:submitVisualizarMensagem/i;
-let lookFor = /javascript:submitVisualizarMensagem\(\'(\d+)\'\);/gi;
-let replaceWith = 'common.viewMessage.action?txt_id=$1&emailTipo=recebidas';
 
-let matches = Array.from( document.getElementsByTagName('a') )
-	.filter(function f(el){
-			return shittyHref.test( el.getAttribute('href') );
-	})
-	.map(function f(el){
-		el.setAttribute('href', el.getAttribute('href').replace(lookFor, replaceWith));
-		return el;
-	 });
-console.log('got ' + matches.length + ' matches');
+(function (){
+	var shittyHref = /javascript\:submitVisualizarMensagem/i;
+	var lookFor = /javascript:submitVisualizarMensagem\(\'(\d+)\'\);/gi;
+	var replaceWith = 'common.viewMessage.action?txt_id=$1&emailTipo=recebidas';
+
+	var matches = Array.from( document.getElementsByTagName('a') )
+		.filter(function f(el){
+				return shittyHref.test( el.getAttribute('href') );
+		})
+		.map(function f(el){
+			el.setAttribute('href', el.getAttribute('href').replace(lookFor, replaceWith));
+			return el;
+		 });
+	console.log('got ' + matches.length + ' matches');
+})();
