@@ -13,7 +13,7 @@
  *		https://sistemas.unesp.br/sentinela/common.viewMessage.action?txt_id=26314345&emailTipo=recebidas
  *
 
-<a href="">
+<a href="common.viewMessage.action?txt_id=26314345&emailTipo=recebidas">
 	<b>Oportunidades e-Deploy</b>
 </a>
 
